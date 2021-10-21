@@ -30,6 +30,11 @@ begin
   result := s;
 end;
 
+function SeconsInHours(x:integer):integer;
+begin
+  result := x * 3600;
+end;
+
 begin
   
 end.
